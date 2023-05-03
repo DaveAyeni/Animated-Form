@@ -21,9 +21,17 @@ body{
     position: relative;
     padding: 3rem;
     background-color: #1c1c1c;
-   overflow: hidde;
+  
 
     
+}
+@media(max-width:412px){
+    .container{
+        max-width: 360px;
+    }
+    body{
+        padding: 0px;
+    }
 }
 main{
     overflow: hidden;
