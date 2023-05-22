@@ -65,6 +65,7 @@ input{
     border-bottom: 1px solid white;
    height: 2px;
     width: 100%;
+    background: transparent;
 }
 input:focus{
     height: 32px;
